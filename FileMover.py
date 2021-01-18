@@ -1,5 +1,5 @@
 #import datetime
-#srcDir = r'\\MCS-PROFILE-P01\Users$\thensley\DownloadsTest\\'
+#srcDir = r''
 #dstDir =  'C:\TEMP\TU %s - %s' % (datetime.date.today().strftime("%m%d%Y"),(datetime.date.today() - datetime.timedelta(days=30)).strftime("%m%d%Y"))
 
 import shutil, os, glob, csv, re
